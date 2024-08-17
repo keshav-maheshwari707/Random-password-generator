@@ -1,4 +1,4 @@
-Random Password Generator
+# Random Password Generator
 
 Introduction
 A simple and efficient password generator that creates a random password of 10 characters, including uppercase letters, lowercase letters, numbers and special symbols. Users can easily copy the generated password for their use.
