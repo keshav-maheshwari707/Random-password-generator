@@ -8,13 +8,13 @@ A simple and efficient password generator that creates a random password of 10 c
 2. Includes uppercase letters, lowercase letters, numbers and special symbols
 3. Allows users to copy the generated password to the clipboard
 
-Technologies Used
-HTML: Structure of the application
-CSS: Styling of the application
-JavaScript: Logic for generating the password and copying it to the clipboard
+## Technologies Used
+1. HTML: Structure of the application
+2. CSS: Styling of the application
+3. JavaScript: Logic for generating the password and copying it to the clipboard
 
-Installation
-Clone the repository:
+## Installation
+1. Clone the repository:
 bash
 Copy code
 git clone https://github.com/username/password-generator.git
