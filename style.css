@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    background: #111315;
+    color: #fff;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    text-align: center; 
+}
+
+.display {
+    width: 100%;
+    margin: 50px 0 30px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 10px;
+}
+
+.container h1 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.container h1 span {
+    color: #2A86FF;
+    border-bottom: 4px solid #2A86FF;
+    padding-bottom: 7px;
+}
+
+.display img {
+    width: 30px;
+    cursor: pointer;
+}
+
+.display input {
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+    text-align: center; 
+    width: 100%; 
+}
+
+.container button img {
+    width: 28px;
+    margin-right: 10px;
+}
+
+.container button {
+    border: 0;
+    outline: 0;
+    background: #fff;
+    color: #5f6369;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%; 
+}
+
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+    .container {
+        width: 80%; 
+        margin: 0 5%; 
+    }
+
+    .display {
+        flex-direction: row; 
+        padding: 15px 15px; 
+        text-align: center; 
+    }
+
+    .container h1 {
+        font-size: 32px; 
+    }
+
+    .display img {
+        width: 25px;
+        margin: auto;
+    }
+
+    .display input {
+        font-size: 20px; 
+    }
+
+    .container button {
+        font-size: 18px; 
+        padding: 12px 18px; 
+        margin-top: 20px; 
+    }
+}
