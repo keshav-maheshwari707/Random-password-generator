@@ -1,13 +1,12 @@
 # Random Password Generator
 
-Introduction
+## Introduction
 A simple and efficient password generator that creates a random password of 10 characters, including uppercase letters, lowercase letters, numbers and special symbols. Users can easily copy the generated password for their use.
 
-
-Features
-Generates a random password of 10 characters
-Includes uppercase letters, lowercase letters, numbers and special symbols
-Allows users to copy the generated password to the clipboard
+## Features
+1. Generates a random password of 10 characters
+2. Includes uppercase letters, lowercase letters, numbers and special symbols
+3. Allows users to copy the generated password to the clipboard
 
 Technologies Used
 HTML: Structure of the application
